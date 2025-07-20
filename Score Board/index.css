@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #e5e5e5;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color: #1b244a;
+    width: fit-content;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.team {
+    text-align: center;
+    color: white;
+}
+
+.score {
+    font-size: 60px;
+    color: #f94f6d;
+    background-color: black;
+    width: 100px;
+    margin: 10px auto;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.btn-group button {
+    margin: 5px 2px;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.btn-group button:hover {
+    background-color: #bbb;
+}
