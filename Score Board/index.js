@@ -13,3 +13,5 @@ function incrementGuest(points) {
     guestScore += points;
     guestScoreEl.textContent = guestScore;
 }
+
+// This code is written by Muhammad Talha Sheikh
